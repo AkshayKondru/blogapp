@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connect = async () => {
-  const mongouri = "MONGOURI;
+  const mongouri = MONGODB_URI;
 
   try {
     await mongoose.connect(mongouri);
