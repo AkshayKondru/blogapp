@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connect = async () => {
-  const mongouri = "mongodb://localhost:27017/Registrationform";
+  const mongouri = "MONGOURI;
 
   try {
     await mongoose.connect(mongouri);
