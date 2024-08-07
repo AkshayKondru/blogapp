@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="heading">Blog it when you feel it</h1>
+    <div class="container">
+        <form action="/submit-form" method="post">
+            <h1>Register</h1>
+            <label for="username">Username/mail id</label>
+            <input type="text" id="username" name="usermail" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <br>
+    <div style="font-family: 'Times New Roman', Times, serif; font-size: x-large;">OR</div>
+    <div class="container">
+        <form action="/login-form" method="post">
+            <h1>Login</h1>
+            <label for="username1">Username/mail id</label>
+            <input type="text" id="username1" name="usermail" required>
+            
+            <label for="password1">Password</label>
+            <input type="password" id="password1" name="password" required>
+            
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
